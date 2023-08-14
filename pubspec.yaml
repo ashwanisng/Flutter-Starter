@@ -1,0 +1,78 @@
+name: starter
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+
+  # GetX
+  get: ^4.6.1
+  get_storage: ^2.0.3
+
+  # Network
+  dio: ^4.0.4
+
+  # UI
+  shimmer: ^2.0.0
+
+  # Firebase
+  firebase_core: ^1.13.1
+  firebase_analytics: ^9.1.2
+  firebase_crashlytics: ^2.5.3
+
+  # Information
+  package_info_plus: ^1.4.0
+
+  #Utilities
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins_light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins_light_italic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/poppins_regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins_italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/poppins_medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins_medium_italic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/poppins_semi_bold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins_semi_bold_italic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/poppins_bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins_bold_italic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/poppins_extra_bold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins_bold_italic.ttf
+          weight: 800
+          style: italic
