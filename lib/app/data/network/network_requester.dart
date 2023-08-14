@@ -16,8 +16,8 @@ class NetworkRequester {
 
   void prepareRequest() {
     BaseOptions dioOptions = BaseOptions(
-      connectTimeout: Timeouts.CONNECT_TIMEOUT,
-      receiveTimeout: Timeouts.RECEIVE_TIMEOUT,
+      connectTimeout: const Duration(milliseconds: Timeouts.CONNECT_TIMEOUT),
+      receiveTimeout: const Duration(milliseconds: Timeouts.RECEIVE_TIMEOUT),
       baseUrl: Env.baseURL,
       contentType: Headers.formUrlEncodedContentType,
       responseType: ResponseType.json,
